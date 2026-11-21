@@ -40,6 +40,7 @@ module half_subtractor (
 endmodule
 ```
 ### Testbench Program
+'''
 module tb3;
     reg A, B;
     wire Sum, Carry;
@@ -77,6 +78,7 @@ module tb3;
         #10 $finish;
     end
 endmodule
+'''
 
 ### Truth Table
 
